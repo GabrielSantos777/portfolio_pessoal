@@ -545,10 +545,11 @@ section#skills .skills .container .cards {
   gap: 5rem;
 }
 @media (max-width: 992px) {
-  section#skills .skills .container .cards {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+
+}
+section#skills .skills .container .cards {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 section#skills .skills .container .cards .box {
   position: relative;
@@ -558,6 +559,7 @@ section#skills .skills .container .cards .box {
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
   cursor: pointer;
+  margin-bottom: 1.5rem;
   transition: 0.2s;
 }
 section#skills .skills .container .cards .box p {
@@ -565,7 +567,7 @@ section#skills .skills .container .cards .box p {
   font-size: 1.6rem;
   font-weight: 500;
   color: #1FBB8C;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 section#skills .skills .container .cards .box::after {
   content: "";
@@ -644,6 +646,7 @@ section#contacts .contacts .icons .icon .box {
 }
 section#contacts .contacts .icons .icon .box img {
   padding: 1.5rem;
+  width: 42px;
   
 }
 section#projects .container {
